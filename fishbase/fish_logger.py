@@ -149,7 +149,7 @@ def set_log_file(local_file=None, file_name_format='%project_name-%log-%date'):
         set_log_file(log_abs_filename)
 
         logger.info('test fish base log')
-        logger.warn('test fish base log')
+        logger.warning('test fish base log')
         logger.error('test fish base log')
 
         print('log ok')
@@ -196,7 +196,7 @@ def set_log_stdout():
         set_log_stdout()
 
         logger.info('test fish base log')
-        logger.warn('test fish base log')
+        logger.warning('test fish base log')
         logger.error('test fish base log')
 
         print('log ok')
